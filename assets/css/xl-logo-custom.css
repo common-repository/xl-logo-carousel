@@ -1,0 +1,38 @@
+/**
+* Global Settings
+*/
+.xl-logo-container .owl-carousel .owl-item img {
+    box-shadow: none;
+    border-radius: 0;
+}
+
+/**
+* Nav Control - Dot
+*/
+.xl-logo-container .owl-controls {
+    margin-top: 30px;
+}
+.xl-logo-container .owl-dots {
+    text-align: center;
+}
+.xl-logo-container .owl-dot {
+    display: inline-block;
+}
+.xl-logo-container .owl-dot span {
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    background-color: #525454;
+    opacity: .5;
+    display: block;
+    margin: 0 3px;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+}
+.xl-logo-container .owl-dot.active span,
+.xl-logo-container .owl-dot:hover span {
+    opacity: 1;
+}
